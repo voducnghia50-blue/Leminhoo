@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nghĩa Bluee | Gaming Services</title>
+    <style>
+        :root {
+            --primary-color: #00d4ff;
+            --bg-dark: #0f0f12;
+            --card-bg: #1a1a20;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            background: linear-gradient(90deg, #00d4ff, #0055ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .tagline {
+            color: #888;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+
+        .services {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .service-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .service-item:hover {
+            border-color: var(--primary-color);
+            background: rgba(0, 212, 255, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .service-item strong {
+            display: block;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .btn-ib {
+            margin-top: 30px;
+            display: inline-block;
+            background: var(--primary-color);
+            color: #000;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.4);
+        }
+
+        .btn-ib:hover {
+            transform: scale(1.05);
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>NGHĨA BLUEE</h1>
+    <p class="tagline">Chuyên cung cấp giải pháp tối ưu Game chuyên nghiệp</p>
+
+    <div class="services">
+        <div class="service-item">
+            <strong>Dịch vụ Aim</strong>
+            <span>Hỗ trợ tinh chỉnh cảm giác chuột và tâm ngắm chuẩn xác.</span>
+        </div>
+        <div class="service-item">
+            <strong>Dịch vụ Mod</strong>
+            <span>Tùy biến giao diện, trang phục và hiệu ứng hình ảnh.</span>
+        </div>
+        <div class="service-item">
+            <strong>Tối ưu hóa</strong>
+            <span>Giúp tăng FPS và giảm giật lag khi chơi game.</span>
+        </div>
+    </div>
+
+    <a href="https://m.me/yourusername" class="btn-ib">LIÊN HỆ TRỰC TIẾP (IB)</a>
+</div>
+
+</body>
+</html>
